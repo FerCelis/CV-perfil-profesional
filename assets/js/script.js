@@ -3,25 +3,25 @@ const habilidades = [
       id:1,
       name: "Excel Avanzado",
       description: "Manejo avanzado de Excel, incluyendo tablas dinámicas, macros, Power Query y automatización de procesos para la generación de reportes y análisis de datos.",
-      img:"/assets/img/img_iconos/excel.png"
+      img:"./assets/img/img_iconos/excel.png"
     },
     {
       id:2,
       name: "G-Sheet",
       description: "Experiencia en la creación y automatización de reportes mediante funciones avanzadas, Querys y Apps Script, optimizando procesos y facilitando la toma de decisiones.",
-      img:"/assets/img/img_iconos/sheets.png"
+      img:"./assets/img/img_iconos/sheets.png"
     },
     {
       id:3,
       name: "Looker Studio",
       description: "Desarrollé dashboards interactivos para la visualización de datos clave, KPIs y análisis, permitiendo una comprensión clara de indicadores y facilitando la toma de decisiones estratégicas.",
-      img:"/assets/img/img_iconos/looker.png"
+      img:"./assets/img/img_iconos/looker.png"
     },
     {
       id:4,
       name: "AppSheet",
       description: "Automatización de flujos de trabajo mediante la creación de aplicaciones de gestión en AppSheet, optimizando la administración de datos y procesos empresariales.",
-      img:"/assets/img/img_iconos/appsheet.png"
+      img:"./assets/img/img_iconos/appsheet.png"
     },
     {
       id:5,
