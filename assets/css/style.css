@@ -106,6 +106,40 @@ a {
   box-shadow: 1px 1px 5px rgba(0, 123, 255, 0.5);  /* Sombra de enfoque */
 }
 
+/*SLIDER*/
+.slider {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  width: calc(50px * 26 * 2); /* 26 slides originales + 26 duplicados */
+}
+
+.slider .slide {
+  width: 50px; /* Cada slide tiene un ancho de 50px */
+  flex-shrink: 0; /* Evitar que se reduzcan */
+  margin: 0; /* Eliminar margen entre slides */
+}
+
+.slider .slide img {
+  height: 50px; /* Altura de los iconos */
+  width: auto;  /* Mantener proporciones */
+  object-fit: contain; /* Ajustar sin deformarse */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(calc(-45px * 24)); /* Desplazar exactamente 26 slides */
+  }
+}
 
 
 

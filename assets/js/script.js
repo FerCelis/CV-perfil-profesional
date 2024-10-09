@@ -163,3 +163,26 @@ function renderizarBotones() {
 
 // Llamar a la función para renderizar los botones cuando cargue la página
 renderizarBotones();
+
+// Función para crear el slider
+function crearSlider(habilidades) {
+  const contenedor = document.getElementById("slide-track");
+  
+  // Duplicar el array de habilidades para un efecto continuo
+  const habilidadesDuplicadas = [...habilidades, ...habilidades];
+
+  for (let habilidad of habilidadesDuplicadas) {
+    const slideHTML = `
+      <div class="slide">
+        <img src="${habilidad.img}" alt="${habilidad.alt}">
+      </div>`;
+    contenedor.innerHTML += slideHTML;
+  }
+}
+
+// Asegurarse de que el DOM esté listo
+document.addEventListener('DOMContentLoaded', function () {
+  crearSlider(habilidades); // Llamar a la función pasando el array
+});
+
+
