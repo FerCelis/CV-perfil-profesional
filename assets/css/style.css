@@ -1,0 +1,111 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #312924;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+.name-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.job-title {
+  color: #6c757d;
+  font-size: 1.25rem;
+}
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #343a40;
+  margin-bottom: 1rem;
+  opacity: 1;
+  
+}
+.icon-title {
+  color: #fd7e14;
+}
+.content-section {
+  margin-bottom: 2rem;
+}
+.contact-info p {
+  margin: 0;
+}
+.skill-badge,
+.language-badge {
+  background-color: #f8f9fa;
+  border: 1px solid #fd7e14;
+  color: #fd7e14;
+  border-radius: 20px;
+  padding: 4px 8px;
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+a {
+  color: inherit; /* Hereda el color del elemento padre */
+  text-decoration: none; /* Elimina el subrayado */
+  font-weight: normal; /* Restablece el peso de la fuente */
+  font-size: inherit; /* Hereda el tamaño de fuente del padre */
+  font-family: inherit; /* Hereda la familia tipográfica del padre */
+}
+
+.skill-badge:hover{
+  background-color: #fd7e14;
+  border: 1px solid #f8f9fa;
+  color: #f8f9fa;
+}
+
+#ppp{
+  margin-top: -23.5px;
+}
+#whatsapp{
+  padding-left: 5px;
+}
+#navbar {
+  background-color: #f8f9fa; 
+}
+:root {
+  --bd-orange-bg: #fd7e14;  /* Definir color naranjo */
+  --bs-white: #f8f9fa;         /* Definir color blanco */
+}
+
+.custom-popover {
+  --bs-popover-max-width: 250px;
+  --bs-popover-border-color: var(--bd-orange-bg);
+  --bs-popover-header-bg: var(--bd-orange-bg);
+  --bs-popover-header-color: var(--bs-white);
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
+/* Personalizar los estilos de los botones */
+.custom-button {
+  background-color: #f8f9fa;  /* Color de fondo */
+  color: #fd7e14;               /* Color del texto */
+  border-radius: 10px;         /* Bordes redondeados */
+  border-color: #fd7e14;
+  margin: 2px 3px ;
+  /*padding: 10px 20px;          /* Padding más grande */
+  /*font-size: 16px;             /* Tamaño de fuente */
+  transition: background-color 0.5s ease;  /* Efecto de transición para hover */
+}
+
+.custom-button:hover {
+  background-color: #fd7e14;   /* Color de fondo al pasar el mouse (hover) */
+  color: #f8f9fa;              /* Color del texto en hover */
+}
+
+.custom-button:active {
+  background-color: #4e555b;   /* Color de fondo al hacer clic */
+}
+
+.custom-button:focus {
+  outline: none;               /* Sin borde de enfoque */
+  box-shadow: 1px 1px 5px rgba(0, 123, 255, 0.5);  /* Sombra de enfoque */
+}
+
+
+
+
