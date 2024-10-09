@@ -27,67 +27,67 @@ const habilidades = [
       id:5,
       name: "HTML",
       description: "Desarrollo de estructuras web utilizando HTML, creando sitios web estáticos que se ajustan a estándares modernos de diseño y accesibilidad.",
-      img:""
+      img:"./assets/img/img_iconos/html.png"
     },
     {
       id:6,
       name: "CSS",
       description: "Estilización de sitios web con CSS, aplicando diseño responsivo y personalización avanzada para mejorar la experiencia del usuario.",
-      img:""
+      img:"./assets/img/img_iconos/css.png"
     },
     {
       id:7,
       name: "JavaScript",
       description: "Desarrollo de funcionalidades dinámicas en sitios web mediante JavaScript, incluyendo manipulación del DOM y creación de interacciones avanzadas.",
-      img:""
+      img:"./assets/img/img_iconos/js.png"
     },
     {
       id:8,
       name: "Bootstrap",
       description: "Uso de Bootstrap para la creación de sitios web responsivos y con diseño atractivo, utilizando su sistema de grid y componentes predefinidos.",
-      img:""
+      img:"./assets/img/img_iconos/Bootstrap.png"
     },
     {
       id:9,
       name: "React",
       description: "Desarrollo de aplicaciones web interactivas y escalables utilizando React, incluyendo el uso de componentes, hooks y gestión de estado.",
-      img:""
+      img:"./assets/img/img_iconos/react.png"
     },
     {
       id:1,
       name: "GIT",
       description: "Control de versiones utilizando Git, permitiendo la gestión eficiente de proyectos, seguimiento de cambios y colaboración con equipos.",
-      img:""
+      img:"./assets/img/img_iconos/git.png"
     },
     {
       id:10,
       name: "GitHub",
       description: "Uso de GitHub como plataforma de control de versiones y colaboración, gestionando repositorios y facilitando el trabajo en equipo mediante ramas y pull requests.",
-      img:""
+      img:"./assets/img/img_iconos/github.png"
     },
     {
       id:11,
       name: "SQL",
       description: "Manejo de bases de datos relacionales mediante consultas SQL, permitiendo la extracción, manipulación y análisis de datos para la creación de reportes y análisis de datos.",
-      img:""
+      img:"./assets/img/img_iconos/sql.png"
     },
     {
       id:11,
       name: "Apps Script",
       description: "Automatización de procesos en Google Sheets y otros productos de Google mediante Apps Script, optimizando tareas repetitivas y mejorando la productividad.",
-      img:""
+      img:"./assets/img/img_iconos/google-apps-script.png"
     },
     {
       id:12,
       name: "Atención al cliente",
       description: "Experiencia en atención al cliente, brindando soporte y resolución de problemas de manera efectiva, asegurando la satisfacción del cliente y una comunicación clara.",
-      img:""
+      img:"./assets/img/img_iconos/atencion_al_cliente.png"
     },
     {
       id:13,
       name: "Inglés Intermedio",
       description: "Habilidad para comunicarse de manera efectiva en inglés en un entorno laboral, incluyendo lectura de documentación técnica, correos y comunicación básica con clientes.",
-      img:""
+      img:"./assets/img/img_iconos/ingles.png"
     }
 ] // fin array skills
 
