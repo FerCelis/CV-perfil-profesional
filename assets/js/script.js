@@ -45,7 +45,7 @@ const habilidades = [
       id:8,
       name: "Bootstrap",
       description: "Uso de Bootstrap para la creación de sitios web responsivos y con diseño atractivo, utilizando su sistema de grid y componentes predefinidos.",
-      img:"./assets/img/img_iconos/Bootstrap.png"
+      img:"./assets/img/img_iconos/bootstrap.png"
     },
     {
       id:9,
