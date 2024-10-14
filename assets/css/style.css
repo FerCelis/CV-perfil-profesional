@@ -2,6 +2,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #312924;
 }
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #f8f9fa;
@@ -34,16 +35,7 @@ body {
 .contact-info p {
   margin: 0;
 }
-.skill-badge,
-.language-badge {
-  background-color: #f8f9fa;
-  border: 1px solid #fd7e14;
-  color: #fd7e14;
-  border-radius: 20px;
-  padding: 4px 8px;
-  display: inline-block;
-  margin-bottom: 0.2rem;
-}
+
 a {
   color: inherit; /* Hereda el color del elemento padre */
   text-decoration: none; /* Elimina el subrayado */
@@ -52,11 +44,6 @@ a {
   font-family: inherit; /* Hereda la familia tipográfica del padre */
 }
 
-.skill-badge:hover{
-  background-color: #fd7e14;
-  border: 1px solid #f8f9fa;
-  color: #f8f9fa;
-}
 
 #ppp{
   margin-top: -23.5px;
@@ -107,26 +94,26 @@ a {
 }
 
 /*SLIDER*/
-.slider {
+.sli {
   width: 80%;
   height: auto;
   margin: auto;
   overflow: hidden;
 }
 
-.slider .slide-track {
+.sli .slide-track {
   display: flex;
   animation: scroll 30s linear infinite;
   width: calc(50px * 26 * 2); /* 26 slides originales + 26 duplicados */
 }
 
-.slider .slide {
+.sli .slide {
   width: 50px; /* Cada slide tiene un ancho de 50px */
   flex-shrink: 0; /* Evitar que se reduzcan */
   margin: 0; /* Eliminar margen entre slides */
 }
 
-.slider .slide img {
+.sli .slide img {
   height: 50px; /* Altura de los iconos */
   width: auto;  /* Mantener proporciones */
   object-fit: contain; /* Ajustar sin deformarse */
@@ -141,5 +128,6 @@ a {
   }
 }
 
-
-
+.visually-hidden{
+  color: #312924;
+}
