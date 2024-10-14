@@ -131,3 +131,8 @@ a {
 .visually-hidden{
   color: #312924;
 }
+footer a:hover{
+  color: #fd7e14;
+  background-color: #38a0a3;
+  border-radius: 25%;
+}
