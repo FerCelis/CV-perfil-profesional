@@ -168,8 +168,8 @@ footer a:hover{
   color: #e0e0e0;
 }
 [data-bs-theme="dark"] h1 {
-color: #1d43ee;
-text-shadow: 1px 1px 4px rgb(144, 185, 212);
+color: #ececec;
+text-shadow: 1px 1px 4px rgb(243, 227, 0);
 }
 [data-bs-theme="dark"] .section-title{
   border-color: #e0e0e0;
@@ -188,7 +188,7 @@ text-shadow: 1px 1px 4px rgb(144, 185, 212);
 }
 
 [data-bs-theme="dark"] .custom-button:hover {
-  background-color: #4c036e;   /* Color de fondo al pasar el mouse (hover) */
+  background-color: #ce8312;   /* Color de fondo al pasar el mouse (hover) */
   color: #f8f9fa;              /* Color del texto en hover */
 }
 
