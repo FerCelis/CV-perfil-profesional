@@ -186,3 +186,24 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+//darkmode
+const toggleButton = document.getElementById('darkModeToggle');
+  const body = document.documentElement;
+
+  toggleButton.addEventListener('click', () => {
+    const currentTheme = body.getAttribute('data-bs-theme');
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    body.setAttribute('data-bs-theme', newTheme);
+    
+    // Cambiar el icono según el tema
+    const icon = toggleButton.querySelector('i');
+    if (newTheme === 'dark') {
+      icon.classList.remove('fa-moon');
+      icon.classList.add('fa-sun');
+      icon.style.color = '#fff';
+    } else {
+      icon.classList.remove('fa-sun');
+      icon.classList.add('fa-moon');
+      icon.style.color = '#555';
+    }
+  });

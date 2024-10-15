@@ -136,3 +136,60 @@ footer a:hover{
   background-color: #38a0a3;
   border-radius: 25%;
 }
+
+/*darkmode*/
+
+/* Dark mode styles */
+/* Estilos generales para el modo oscuro */
+[data-bs-theme="dark"] {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Asegúrate de que los enlaces también cambien de color */
+[data-bs-theme="dark"] a, [data-bs-theme="dark"] p {
+  color: #e0e0e0;
+}
+
+/* Aplica estilos a botones personalizados o áreas específicas */
+[data-bs-theme="dark"] .btn {
+  background-color: #1f265f;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+/* Si tienes secciones específicas o tarjetas, ajusta también sus colores */
+[data-bs-theme="dark"] .card, [data-bs-theme="dark"] .section {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+/* Otros elementos */
+[data-bs-theme="dark"] .container, [data-bs-theme="dark"] .row, [data-bs-theme="dark"] body {
+  background-color: rgb(47, 58, 68);
+  color: #e0e0e0;
+}
+[data-bs-theme="dark"] h1 {
+color: #1d43ee;
+text-shadow: 1px 1px 4px rgb(144, 185, 212);
+}
+[data-bs-theme="dark"] .section-title{
+  border-color: #e0e0e0;
+}
+
+
+[data-bs-theme="dark"] .custom-button {
+  background-color: #17459b;  /* Color de fondo */
+  color: #ebe9e5;               /* Color del texto */
+  border-radius: 10px;         /* Bordes redondeados */
+  border-color: #0381b3;
+  margin: 2px 3px ;
+  /*padding: 10px 20px;          /* Padding más grande */
+  /*font-size: 16px;             /* Tamaño de fuente */
+  transition: background-color 0.5s ease;  /* Efecto de transición para hover */
+}
+
+[data-bs-theme="dark"] .custom-button:hover {
+  background-color: #4c036e;   /* Color de fondo al pasar el mouse (hover) */
+  color: #f8f9fa;              /* Color del texto en hover */
+}
