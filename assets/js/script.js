@@ -318,7 +318,7 @@ const toggleButton = document.getElementById('darkModeToggle');
             .then(data => {
                 console.log("Datos obtenidos de /start:", data);
                 threadID = data.thread_id;
-                addMessageToChat('Asistente', '¿En qué te puedo servir? 😊');
+                addMessageToChat('Asistente', 'Hola, ¿qué te gustaría saber de Fernando Celis? 😊');
                 showChatInput();
                 setTimeout(() => {
                     startConversationButton.disabled = false; // Habilitar el botón después de 3 segundos
@@ -328,7 +328,7 @@ const toggleButton = document.getElementById('darkModeToggle');
             })
             .catch(error => {
                 console.error('Error al iniciar la conversación:', error);
-                addMessageToChat('Error', 'No se pudo iniciar la conversación.');
+                addMessageToChat('Error', 'No se pudo iniciar la conversación. Posiblemente el backend esté deconectado, contactate con Fernando.');
                 startConversationButton.disabled = false; // Habilitar el botón en caso de error
                 startConversationButton.classList.remove('button-disabled'); // Remover clase de deshabilitado
                 startConversationButton.innerHTML = 'Iniciar conversación'; // Restablecer texto del botón
