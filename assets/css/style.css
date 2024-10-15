@@ -137,8 +137,6 @@ footer a:hover{
   border-radius: 25%;
 }
 
-/*darkmode*/
-
 /* Dark mode styles */
 /* Estilos generales para el modo oscuro */
 [data-bs-theme="dark"] {
@@ -193,3 +191,5 @@ text-shadow: 1px 1px 4px rgb(144, 185, 212);
   background-color: #4c036e;   /* Color de fondo al pasar el mouse (hover) */
   color: #f8f9fa;              /* Color del texto en hover */
 }
+
+/* fin Dark mode styles *
