@@ -233,7 +233,6 @@ const toggleButton = document.getElementById('darkModeToggle');
     chatContainer.innerHTML = `
   <div class="chat-content-vertical">
       <div class="chat-header">
-          <img src="" alt="">
           <button class="chat-close" id="chatClose">x</button>
       </div>
       <div class="chat-bot-info">
@@ -318,7 +317,7 @@ const toggleButton = document.getElementById('darkModeToggle');
             .then(data => {
                 console.log("Datos obtenidos de /start:", data);
                 threadID = data.thread_id;
-                addMessageToChat('Asistente', 'Hola, ¿qué te gustaría saber de Fernando Celis? 😊');
+                addMessageToChat('Asistente', 'Este bot fue creado como parte de un experimento. Puede proporcionarte información sobre mi. ¡Hazle una pregunta para empezar!😊');
                 showChatInput();
                 setTimeout(() => {
                     startConversationButton.disabled = false; // Habilitar el botón después de 3 segundos
