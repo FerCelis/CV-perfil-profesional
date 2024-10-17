@@ -211,7 +211,7 @@ const toggleButton = document.getElementById('darkModeToggle');
   //chat bot
   (function() {
     var threadID = null;
-    var backendURL = "https://b593cd66-e41a-479e-b764-7d7b05a06a79-00-3nyf23q8rd2nh.picard.replit.dev";
+    var backendURL = "https://bublebackend-fernandocelisa.replit.app";
     var typingIndicatorInterval = null;
     var apiKey = "mi_llave_de_protección"; // Añadir la clave API
 
