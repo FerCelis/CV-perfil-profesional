@@ -403,7 +403,7 @@ text-shadow: 1px 1px 4px rgb(243, 227, 0);
     padding: 10px;
     border-top: 1px solid #E0E0E0;
     width: 100%;
-    background-color: #F1F4F9;
+    background-color: #f7ffff;
   }
 
   .chat-input-container input {
@@ -411,7 +411,7 @@ text-shadow: 1px 1px 4px rgb(243, 227, 0);
     padding: 10px;
     border: 1px solid #E0E0E0;
     border-radius: 0;
-    background-color: #FFFFFF;
+    background-color: #fffcfc;
     color: #333;
   }
 
@@ -419,7 +419,7 @@ text-shadow: 1px 1px 4px rgb(243, 227, 0);
     padding: 10px;
     border: none;
     background-color: #4473B2;
-    color: white;
+    color: rgb(255, 252, 252);
     border-radius: 0;
     cursor: pointer;
     flex-shrink: 0;
@@ -508,7 +508,7 @@ text-shadow: 1px 1px 4px rgb(243, 227, 0);
     align-items: center;
 }
 
-
+/* box de mensaje del usuario*/
 .user-message .message-bubble {
   background-color: #c4d8f8; /* Color similar a WhatsApp para el usuario */
   color: #000; /* Texto negro */
@@ -516,7 +516,7 @@ text-shadow: 1px 1px 4px rgb(243, 227, 0);
   justify-content: flex-end;
   align-self: flex-end;
 }
-
+/* box de mensaje del bot*/
 .assistant-message .message-bubble {
   display: flex;
   align-items: center;
@@ -557,4 +557,85 @@ text-shadow: 1px 1px 4px rgb(243, 227, 0);
   background-color: #5A8BCC;
   cursor: wait;
 }
+
+/* dark mode del bot / dark mode del bot/ dark mode del bot/ dark mode del bot/ dark mode del bot/ dark mode del bot */
+/* Contenedor del chat (chat-container) y su contenido */
+[data-bs-theme="dark"] .chat-container {
+  background-color: #1b2e3f;
+  color: #e0e0e0;
+  border: 1px solid #2caeb3;
+}
+
+[data-bs-theme="dark"] .chat-header {
+  background-color: #1b2e3f;
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .chat-bot-info {
+  background-color: #1b2e3f;
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .chat-bot-title, 
+[data-bs-theme="dark"] .chat-bot-subtitle {
+  color: #e0e0e0;
+}
+
+/* Contenedor del chat (chat-container) y su contenido */
+[data-bs-theme="dark"] .chat-messages {
+  background-color: #1b2e3f;
+  color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .message-bubble {
+  background-color: #333333;
+  color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .user-message .message-bubble {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .assistant-message .message-bubble {
+  background-color: #444444;
+  color: #e0e0e0;
+}
+[data-bs-theme="dark"] .chat-content-vertical {
+  background-color: #1b2e3f;
+  color: #e0e0e0;
+  border: 1px solid #2caeb3;
+  padding: 10px;
+}
+
+/* Indicador de escritura y campo de entrada (chatbot)*/
+[data-bs-theme="dark"] .typing-indicator {
+  background-color: #333333;
+  color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .chat-input-container {
+  background-color: #1b2e3f;
+  border-top: 1px solid #2caeb3;
+}
+
+[data-bs-theme="dark"] #chatInput {
+  background-color: #1b2e3f;
+  color: #ffffff;
+  border: 1px solid #2caeb3;
+}
+
+[data-bs-theme="dark"] #sendButton {
+  background-color: #2caeb3;
+  color: #ffffff;
+}
+
+/* Burbuja flotante del chat*/
+[data-bs-theme="dark"] .chat-bubble {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #2caeb3;
+}
+
+
 /*fin chatbot*/
